@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Practice debugging techniques in ServiceNow.</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Practice Debugging</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	
+	/*
+	CODE WITH ERRORS
+	-------------------
+	function onSubmit() {
+	try{
+		var x === 7;
+		jslogger("This message is from jslog().");
+		jslog("The value of x = " + x)
+		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The currently logged in user is " + g_user.getFullName() + ".");
+				
+						
+ 		g_form.setValue('short_description',g_form.getValue('short_description') + " -  Updated field value");
+	}
+	catch(err){
+		jslogger('A JavaScript runtime error occurred: ' + err.message);
+   }
+   -----------
+   */
+	
+    try {
+        var x = 7;
+        jslog("This message is from jslog().");
+        jslog("The value of x = " + x);
+        jslog("The NeedIt State value = " + g_form.getValue('state'));
+        jslog("The currently logged in user is " + g_user.getFullName() + ".");
+
+
+        g_form.setValue('short_description', g_form.getValue('short_description') + " -  Updated field value");
+    } catch (err) {
+        jslog('A JavaScript runtime error occurred: ' + err.message);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-25 18:11:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1a76f7f07023010c195f19d7c1ed0a9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>NeedIt Practice Debugging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_d1a76f7f07023010c195f19d7c1ed0a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-25 18:22:55</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2a688ac4db8393407d8cf22ebf96197c</instance_id>
+        <instance_name>dev62862</instance_name>
+        <name>sys_script_client_d1a76f7f07023010c195f19d7c1ed0a9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Practice debugging techniques in ServiceNow.&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt Practice Debugging&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+	
+	/*
+	CODE WITH ERRORS
+	-------------------
+	function onSubmit() {
+	try{
+		var x === 7;
+		jslogger("This message is from jslog().");
+		jslog("The value of x = " + x)
+		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The currently logged in user is " + g_user.getFullName() + ".");
+				
+						
+ 		g_form.setValue('short_description',g_form.getValue('short_description') + " -  Updated field value");
+	}
+	catch(err){
+		jslogger('A JavaScript runtime error occurred: ' + err.message);
+   }
+   -----------
+   */
+	
+    try {
+        var x = 7;
+        jslog("This message is from jslog().");
+        jslog("The value of x = " + x);
+        jslog("The NeedIt State value = " + g_form.getValue('state'));
+        jslog("The currently logged in user is " + g_user.getFullName() + ".");
+
+
+        g_form.setValue('short_description', g_form.getValue('short_description') + " -  Updated field value");
+    } catch (err) {
+        jslog('A JavaScript runtime error occurred: ' + err.message);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-25 18:11:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d1a76f7f07023010c195f19d7c1ed0a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt Practice Debugging&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d1a76f7f07023010c195f19d7c1ed0a9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-25 18:22:55&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1074530063</payload_hash>
+        <record_name>NeedIt Practice Debugging</record_name>
+        <reverted_from/>
+        <source>053d377a07023010c195f19d7c1ed096</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-25 18:22:55</sys_created_on>
+        <sys_id>7d5b2f7307423010c195f19d7c1ed034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b7e8d03d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-25 18:22:55</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b55b2f73444230106ebe42ef461b2d34</update_guid>
+        <update_guid_history>b55b2f73444230106ebe42ef461b2d34:-1074530063,31eaaf73b34230101562baf5f8239e40:967168612,62ca6f737042301031dd4e1bb3d183ed:-1157450068,5f6ae3736b4230103265fed808295e8a:967168612,99c9af338b423010e68f75ff2eee1b9a:-1157450068,85a9e733db423010ae17c803ba8dab35:-1602718652,8df8e77f8b02301052102c153a928ada:967168612,bb986333844230105687d3b87508521c:-1157450068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 19:04:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0416f5257ee54dce81021b0a37cb6309</sys_id>
+        <sys_metadata>d1a76f7f07023010c195f19d7c1ed0a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Practice Debugging</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">706df3ba07023010c195f19d7c1ed0d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_d1a76f7f07023010c195f19d7c1ed0a9</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d1a76f7f07023010c195f19d7c1ed0a9">7d5b2f7307423010c195f19d7c1ed034</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 19:04:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
