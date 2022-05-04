@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_58872_needit_needit</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_58872_needit_needit">priorityIN1,2,3,4^EQ<item display_value="1,2,3,4" endquery="false" field="priority" goto="false" newquery="false" operator="IN" or="false" value="1,2,3,4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>BR Debug</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+
+
+
+        current.setAbortAction(true);
+    
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-02 17:51:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf2187142f5701105e66d2172799b6c3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>BR Debug</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_bf2187142f5701105e66d2172799b6c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-02 18:29:42</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=bf2187142f5701105e66d2172799b6c3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8a703385db17f388387021c405961906</instance_id>
+        <instance_name>dev91506</instance_name>
+        <name>sys_script_bf2187142f5701105e66d2172799b6c3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_58872_needit_needit&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_58872_needit_needit"&gt;priorityIN1,2,3,4^EQ&lt;item display_value="1,2,3,4" endquery="false" field="priority" goto="false" newquery="false" operator="IN" or="false" value="1,2,3,4"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;BR Debug&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+
+
+
+        current.setAbortAction(true);
+    
+
+
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-02 17:51:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bf2187142f5701105e66d2172799b6c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;BR Debug&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_bf2187142f5701105e66d2172799b6c3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-02 18:29:42&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=bf2187142f5701105e66d2172799b6c3"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2042432625</payload_hash>
+        <record_name>BR Debug</record_name>
+        <reverted_from/>
+        <source>053d377a07023010c195f19d7c1ed096</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-02 18:29:42</sys_created_on>
+        <sys_id>3a5a47182f9701105e66d2172799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1808609114e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-02 18:29:42</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>be5a4718d9970110f68325e6e1576901</update_guid>
+        <update_guid_history>be5a4718d9970110f68325e6e1576901:2042432625,64990794aa970110c2838340ec283de0:470043019,1519cf5417970110a0b0bb47ce7a71cc:2042432625,98388fd0d59701107c3737fe9eb6464f:-310128012,04e74fd0d3970110f91b4180a8ea70fc:885293462,fab7439058970110dd2a804e9b15188c:1691662021,dcb70bd0cf970110dc8d6db28630277d:908169134,f367cb50cc970110e7dbce596f6f9f38:-781389517,9fd6cf109e970110230fd42e38905f38:-815102737,ec350f9ce5570110dfa6d7d278126f70:88977881,b8058b5c4e570110110a79be0d897568:348182769,d2444b5c5c57011011f739fa017152c4:-764097503,79e347d8c95701100e93e66f24766328:1816578579,a6b38b1c98570110b94f7ae00b169e27:662373101,02b10718e6570110c154731f4ef8012d:412001176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-02 18:32:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>650d1cb7c92f48d3a8cc4a9a087b7ba9</sys_id>
+        <sys_metadata>bf2187142f5701105e66d2172799b6c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BR Debug</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">706df3ba07023010c195f19d7c1ed0d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_bf2187142f5701105e66d2172799b6c3</sys_update_name>
+        <sys_update_version display_value="sys_script_bf2187142f5701105e66d2172799b6c3">3a5a47182f9701105e66d2172799b602</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-02 18:32:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
