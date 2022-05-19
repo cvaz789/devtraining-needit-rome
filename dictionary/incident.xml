@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="7090" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Actions taken" max_length="40" name="actions_taken" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" label="Business impact" max_length="4000" name="business_impact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Probable cause" max_length="4000" name="cause" type="string"/>
+        <element label="Findings" max_length="65000" name="lessons_learned" type="html"/>
+        <element attributes="edge_encryption_enabled=true,ignore_filter_on_new=true" choice="1" label="Major incident state" max_length="40" name="major_incident_state" read_only="true" type="string">
+            <choice/>
+        </element>
+        <element label="Overview" max_length="65000" name="overview" type="html"/>
+        <element attributes="encode_utf8=false" label="Promoted by" max_length="32" name="promoted_by" read_only="true" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Promoted" max_length="40" name="promoted_on" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Proposed by" max_length="32" name="proposed_by" read_only="true" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Proposed" max_length="40" name="proposed_on" read_only="true" type="glide_date_time"/>
+        <element label="Timeline" max_length="1024000" name="timeline" type="html"/>
+        <element attributes="encode_utf8=false,readonly_clickthrough=true" label="Trigger Rule" max_length="32" name="trigger_rule" read_only="true" reference="major_incident_trigger_rule" type="reference"/>
+    </element>
+</database>

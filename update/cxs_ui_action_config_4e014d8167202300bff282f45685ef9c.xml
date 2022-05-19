@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="INSERT_OR_UPDATE">
+        <action_condition/>
+        <action_label>Helpful</action_label>
+        <action_undo_label>Not Helpful</action_undo_label>
+        <action_value>This helped</action_value>
+        <active>true</active>
+        <advanced_visibility>false</advanced_visibility>
+        <attach_note_field/>
+        <attachment_type/>
+        <badge_label>Helpful</badge_label>
+        <current_action_condition/>
+        <current_table/>
+        <order>400</order>
+        <rest_api/>
+        <search_res_config display_value="Open Major Incidents">7f25d87a535b130005ecddeeff7b1261</search_res_config>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.GlideRecordSearchResource</search_resource>
+        <search_ui_action display_value="This helped">31173286872a0300692cbba826cb0be1</search_ui_action>
+        <search_ui_config display_value="Agent Assist [incident]">e15061a4b30303002bf182c136a8dc34</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 22:25:35</sys_created_on>
+        <sys_id>4e014d8167202300bff282f45685ef9c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Helpful</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>cxs_ui_action_config_4e014d8167202300bff282f45685ef9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 22:25:57</sys_updated_on>
+        <table/>
+        <trend_recommendation/>
+        <ui_action_visibility_script/>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e014d8167202300bff282f45685ef9c"/>
+</record_update>
